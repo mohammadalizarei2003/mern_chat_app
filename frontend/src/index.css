@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: business --default, nord --prefersdark;
+}
+
+
+@font-face {
+    font-family: 'customFont';
+    src: url('./assets/fonts/YekanBakh-Regular.ttf'), url('./assets/fonts/YekanBakh-Bold.ttf'), ;
+}
+
+* {
+    font-family: 'customFont' !important;
+    scrollbar-width: none;
+}
